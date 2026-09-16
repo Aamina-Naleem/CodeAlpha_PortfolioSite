@@ -1,7 +1,4 @@
-/* ==========================================================================
-   2-COLOR MODERN HARMONY: Electric Indigo (#6366f1) & Sunset Rose (#f43f5e)
-   Set on a rich midnight-slate background (luxurious, readable, non-harsh)
-   ========================================================================== */
+
 :root {
   --bg: #0f1322;               /* Comfortable midnight slate */
   --bg-card: rgba(21, 26, 46, 0.75);
@@ -276,7 +273,6 @@ body {
   box-shadow: 0 10px 28px rgba(244, 63, 94, 0.5);
 }
 
-/* Dedicated Resume Button */
 .btn-resume {
   background: rgba(244, 63, 94, 0.12);
   border: 1px solid rgba(244, 63, 94, 0.4);
@@ -542,7 +538,7 @@ body {
 }
 
 /* ==========================================================================
-   PROJECTS (Includes VELORA Gallery)
+   PROJECTS
    ========================================================================== */
 .projects-grid {
   display: grid;
@@ -709,151 +705,177 @@ body {
 }
 
 /* ==========================================================================
-   CONTACT & DISCLAIMER
+   CONTACT & DISCLAIMER (Compact Boxed Form & Button Cards)
    ========================================================================== */
 .notice-box {
   display: flex;
   align-items: flex-start;
-  gap: 18px;
-  padding: 22px 28px;
-  margin-bottom: 35px;
+  gap: 16px;
+  padding: 18px 22px;
+  margin: 0 auto 28px auto;
+  max-width: 860px;
   border-color: rgba(244, 63, 94, 0.35);
   background: rgba(36, 23, 42, 0.75);
 }
 
 .notice-icon {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--rose-glow);
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .notice-body h4 {
   font-family: var(--font-head);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   margin-bottom: 4px;
   color: #fff;
 }
 
 .notice-body p {
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   color: var(--text-body);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1.15fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 24px;
+  max-width: 860px;
+  margin: 0 auto;
+  align-items: start;
 }
 
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 }
 
 .link-box {
   display: flex;
   align-items: center;
-  gap: 18px;
-  padding: 20px 22px;
+  gap: 14px;
+  padding: 14px 18px;
   text-decoration: none;
   color: inherit;
   transition: var(--transition);
 }
 
-.link-box:not(.static):hover {
-  transform: translateX(6px);
+.action-card {
+  cursor: pointer;
+  border: 1px solid var(--glass-border);
+}
+
+.action-card:hover {
+  transform: translateY(-2px);
   border-color: var(--glass-border-hover);
-  background: rgba(30, 36, 62, 0.85);
+  background: rgba(30, 36, 62, 0.9);
+  box-shadow: 0 8px 20px rgba(244, 63, 94, 0.15);
 }
 
 .box-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.35rem;
+  font-size: 1.15rem;
+  flex-shrink: 0;
 }
 
 .box-info {
   display: flex;
   flex-direction: column;
+  gap: 2px;
 }
 
 .info-label {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   color: var(--text-muted);
+  letter-spacing: 0.5px;
 }
 
 .info-value {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  word-break: break-all;
 }
 
-.arrow-icon {
-  margin-left: auto;
+.action-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.85rem;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--rose-glow);
+  transition: var(--transition);
+}
+
+.action-card:hover .action-badge {
+  color: #fff;
+  transform: translateX(2px);
 }
 
 .btn-copy {
   justify-content: center;
-  padding: 12px;
-  font-size: 0.9rem;
+  padding: 10px;
+  font-size: 0.85rem;
+  border-radius: 10px;
 }
 
-/* Contact Form */
+/* Compact Bordered Message Box */
 .form-box {
-  padding: 36px;
+  padding: 22px 24px;
 }
 
 .input-wrap {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .input-wrap label {
   display: block;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   color: var(--text-body);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .input-wrap input,
 .input-wrap textarea {
   width: 100%;
-  padding: 13px 16px;
+  padding: 10px 12px;
   background: rgba(15, 19, 34, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  border-radius: 8px;
   color: #fff;
   font-family: var(--font-text);
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   outline: none;
   transition: var(--transition);
+  resize: vertical;
 }
 
 .input-wrap input:focus,
 .input-wrap textarea:focus {
   border-color: var(--rose);
-  box-shadow: 0 0 12px rgba(244, 63, 94, 0.25);
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.25);
   background: rgba(15, 19, 34, 0.95);
 }
 
 .btn-block {
   width: 100%;
   justify-content: center;
+  padding: 11px 20px;
+  font-size: 0.9rem;
 }
 
 .form-note {
-  margin-top: 12px;
-  font-size: 0.85rem;
+  margin-top: 10px;
+  font-size: 0.78rem;
   color: var(--text-muted);
   text-align: center;
+  line-height: 1.4;
 }
 
 /* ==========================================================================
