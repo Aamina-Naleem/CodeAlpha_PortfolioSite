@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -47,7 +48,6 @@
         <span class="status-pulse"></span> 🚀 Open for Job Opportunities & Projects
       </div>
       
-      <!-- Name and Role (Clean, without any dashes) -->
       <h1 class="hero-name">Aamina Naleem</h1>
       <p class="hero-role">Software Engineering Undergraduate</p>
 
@@ -57,22 +57,18 @@
       </p>
 
       <div class="hero-buttons">
-        <!-- 1. View Projects -->
         <a href="#projects" class="btn btn-primary">
           View Projects <i class="fa-solid fa-arrow-right"></i>
         </a>
 
-        <!-- 2. View Resume (Opens PDF in a new tab) -->
         <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-resume">
           <i class="fa-regular fa-file-lines"></i> View Resume
         </a>
 
-        <!-- 3. LinkedIn Profile -->
         <a href="https://www.linkedin.com/in/aamina-naleem-84b613367" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
           <i class="fa-brands fa-linkedin-in"></i> LinkedIn
         </a>
 
-        <!-- 4. Professional Contact Button -->
         <a href="#contact" class="btn btn-outline">
           <i class="fa-regular fa-envelope"></i> Send an Inquiry
         </a>
@@ -111,7 +107,7 @@
     </div>
   </section>
 
-  <!-- Core Strengths Section (Inspired by Card Layout) -->
+  <!-- Core Strengths Section -->
   <section class="section" id="strengths">
     <div class="container">
       <div class="section-title-wrap">
@@ -283,7 +279,6 @@
       </div>
 
       <div class="certs-grid">
-        <!-- Certification 1 -->
         <div class="glass-card cert-card">
           <div class="cert-meta">
             <span class="cert-source"><i class="fa-solid fa-award"></i> Coursera</span>
@@ -296,7 +291,6 @@
           </div>
         </div>
 
-        <!-- Certification 2 -->
         <div class="glass-card cert-card">
           <div class="cert-meta">
             <span class="cert-source"><i class="fa-solid fa-award"></i> Coursera Project Network</span>
@@ -312,7 +306,7 @@
     </div>
   </section>
 
-  <!-- Featured Projects (Includes VELORA Image Gallery) -->
+  <!-- Featured Projects -->
   <section class="section" id="projects">
     <div class="container">
       <div class="section-title-wrap">
@@ -321,7 +315,6 @@
       </div>
 
       <div class="projects-grid">
-        <!-- Project 1: VELORA Image Gallery (CodeAlpha Task 1) -->
         <div class="glass-card project-card featured-highlight">
           <div class="project-top-row">
             <span class="project-badge">🖼️ CodeAlpha Task 1</span>
@@ -347,7 +340,6 @@
           </div>
         </div>
 
-        <!-- Project 2: Aurae -->
         <div class="glass-card project-card">
           <div class="project-top-row">
             <span class="project-badge">📱 Mobile App</span>
@@ -370,7 +362,6 @@
           </div>
         </div>
 
-        <!-- Project 3: OSRO Doctor Appointments -->
         <div class="glass-card project-card">
           <div class="project-top-row">
             <span class="project-badge">🏥 Web Application</span>
@@ -393,7 +384,6 @@
           </div>
         </div>
 
-        <!-- Project 4: CloudServe UI/UX -->
         <div class="glass-card project-card">
           <div class="project-top-row">
             <span class="project-badge">🎨 UI/UX & Systems</span>
@@ -500,24 +490,22 @@
       </div>
 
       <div class="contact-grid">
-        <!-- Direct Channels -->
+        <!-- Direct Channel Action Buttons (No raw text/links) -->
         <div class="contact-links">
-          <a href="mailto:Aaminanaleem608@gmail.com" class="glass-card link-box">
+          <a href="mailto:Aaminanaleem608@gmail.com" class="glass-card link-box action-card">
             <div class="box-icon icon-rose"><i class="fa-solid fa-envelope"></i></div>
             <div class="box-info">
               <span class="info-label">Direct Email</span>
-              <span class="info-value">Aaminanaleem608@gmail.com</span>
+              <span class="action-badge">Send Email <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
             </div>
-            <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
           </a>
 
-          <a href="https://www.linkedin.com/in/aamina-naleem-84b613367" target="_blank" rel="noopener noreferrer" class="glass-card link-box">
+          <a href="https://www.linkedin.com/in/aamina-naleem-84b613367" target="_blank" rel="noopener noreferrer" class="glass-card link-box action-card">
             <div class="box-icon icon-indigo"><i class="fa-brands fa-linkedin-in"></i></div>
             <div class="box-info">
               <span class="info-label">LinkedIn Profile</span>
-              <span class="info-value">linkedin.com/in/aamina-naleem-84b613367</span>
+              <span class="action-badge">Open Profile <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
             </div>
-            <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
           </a>
 
           <div class="glass-card link-box static">
@@ -533,7 +521,7 @@
           </button>
         </div>
 
-        <!-- Guaranteed Direct Message Sender -->
+        <!-- Compact Form Box -->
         <div class="glass-card form-box">
           <form id="contact-message-form">
             <div class="input-wrap">
@@ -548,7 +536,7 @@
 
             <div class="input-wrap">
               <label for="userMsg">Message</label>
-              <textarea id="userMsg" rows="5" required placeholder="Write your message here..."></textarea>
+              <textarea id="userMsg" rows="3" required placeholder="Write your message here..."></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary btn-block">
