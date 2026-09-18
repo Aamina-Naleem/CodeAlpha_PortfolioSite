@@ -19,12 +19,15 @@ Explore the live site: https://aamina-naleem.github.io/CodeAlpha_PortfolioSite/
 
 
 🛠️ Technologies Used:
+
 HTML5 | CSS3 | JavaScript (ES6) | Git & GitHub Pages | Font Awesome Icons
 
 
 
 📂 Project Structure
+
 CodeAlpha_PortfolioSite/
+
 ├── index.html
 ├── style.css
 ├── script.js
@@ -32,6 +35,7 @@ CodeAlpha_PortfolioSite/
 └── README.md
 
 💡 About the Project
+
 * Developed as Task 2 for the Frontend Development Internship at CodeAlpha.
 * Emphasizes clean software design principles, intuitive user experience, and accessible web standards.
 * Built purely with vanilla web technologies without relying on heavy external frontend frameworks.
