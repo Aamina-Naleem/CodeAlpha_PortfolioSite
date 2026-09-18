@@ -2,10 +2,12 @@
 
 A modern, responsive personal portfolio website built with semantic HTML5, modern CSS3, and Vanilla JavaScript. It allows visitors to explore software engineering projects, technical skills, verified certifications, educational milestones, and direct contact channels.
 
-🚀 Live Demo
+#*🚀 Live Demo*
+
 Explore the live site: https://aamina-naleem.github.io/CodeAlpha_PortfolioSite/
 
-✨ Features
+#*✨ Features*
+
 * Modern dark aesthetic featuring midnight-slate tones and dual ambient glows (Electric Indigo and Sunset Rose).
 * Glassmorphic card containers with subtle border highlights and interactive hover elevations.
 * Sticky navigation bar with smooth scrolling and dynamic active-section scroll spy.
@@ -18,23 +20,27 @@ Explore the live site: https://aamina-naleem.github.io/CodeAlpha_PortfolioSite/
 * Responsive layout optimized across mobile, tablet, and desktop viewports.
 
 
-🛠️ Technologies Used:
+#*🛠️ Technologies Used:*
 
 HTML5 | CSS3 | JavaScript (ES6) | Git & GitHub Pages | Font Awesome Icons
 
 
 
-📂 Project Structure
+#*📂 Project Structure*
 
 CodeAlpha_PortfolioSite/
 
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── Resume.pdf
+
 └── README.md
 
-💡 About the Project
+#*💡 About the Project*
 
 * Developed as Task 2 for the Frontend Development Internship at CodeAlpha.
 * Emphasizes clean software design principles, intuitive user experience, and accessible web standards.
