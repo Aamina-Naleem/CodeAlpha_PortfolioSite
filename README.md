@@ -1,4 +1,5 @@
-🌟 Personal Portfolio Website
+# **🌟 My Personal Portfolio Website**
+
 A modern, responsive personal portfolio website built with semantic HTML5, modern CSS3, and Vanilla JavaScript. It allows visitors to explore software engineering projects, technical skills, verified certifications, educational milestones, and direct contact channels.
 
 🚀 Live Demo
